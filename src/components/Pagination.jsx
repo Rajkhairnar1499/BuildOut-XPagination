@@ -73,7 +73,8 @@ export default function Pagination() {
         </div>
 
         <div className="pagin-container">
-          <button onClick={handlePreviousPage} disabled={currPage === 1}>
+          {/* <button onClick={handlePreviousPage} disabled={currPage === 1}> */}
+          <button onClick={handlePreviousPage} disabled="">
             Previous
           </button>
           <p className="curr-page">{currPage}</p>
